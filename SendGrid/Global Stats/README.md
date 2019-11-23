@@ -12,7 +12,13 @@ To use this Community Connector in Data Studio there is a one-time setup to depl
 
 ### Deploy the connector
 
+#### Method 1
+
 Follow the [deployment guide](https://github.com/googledatastudio/community-connectors/blob/master/deploy.md) to deploy the Community Connector.
+
+#### Method 2
+
+**Make a copy** of [this script](https://script.google.com/d/1lumxFV7wE0V3mTHrENuSx3rT9XEywJeXYT9dLAz3y-80J_hQR4UoyAS7/edit?usp=sharing) and then **Deploy from manifest...**
 
 ## Using the connector in Data Studio
 
