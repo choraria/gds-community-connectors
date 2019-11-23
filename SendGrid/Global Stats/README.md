@@ -5,7 +5,7 @@
 This [Data Studio](https://datastudio.google.com) [Community Connector](https://developers.google.com/datastudio/connector) lets you connect to [SendGrid](https://sendgrid.com/)'s [Global Stats API](https://sendgrid.com/docs/API_Reference/Web_API_v3/Stats/global.html) and provide all of your user’s email statistics for a given date range.
 
 ![sendgrid-global-stats-data-studio-template](https://raw.githubusercontent.com/schoraria911/gds-community-connectors/master/SendGrid/Global%20Stats/images/sendgrid-global-stats-data-studio-template.png)
-*This visualisation is based on a [dummy data set](https://docs.google.com/spreadsheets/d/1SRjFAKN0qJGWjHy_wZNqz8n6Hrjg0NTlx14VXqTaMpc/edit?usp=sharing)*.
+*This visualisation is based on a [dummy data set](https://docs.google.com/spreadsheets/d/1SRjFAKN0qJGWjHy_wZNqz8n6Hrjg0NTlx14VXqTaMpc/edit?usp=sharing) that mimics the API response data structure*.
 
 ## Set up the Community Connector for personal use
 
