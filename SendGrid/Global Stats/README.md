@@ -41,9 +41,20 @@ You will be prompted to enter this **Key** while setting up the connector for th
 
 ## Troubleshooting
 
-### This app isn't verified
+### Start date is too far in the past
 
-When authorizing the community connector, if you are presented with an "unverified" warning screen see [This app isn't verified](https://github.com/googledatastudio/community-connectors/blob/master/verification.md) for details on how to proceed.
+SendGrid's [stats APIs](https://sendgrid.com/docs/API_Reference/Web_API_v3/Stats/index.html) provide a read-only access to your email statistics that are available only for the last **3 years** and so if you stumble upon the following error, please change the date range from the data studio viz.
+
+```
+{
+    "errors": [
+        {
+            "message": "start date is too far in the past",
+            "field": "start_date"
+        }
+    ]
+}
+```
 
 ## Developer examples covered in the connector
 
