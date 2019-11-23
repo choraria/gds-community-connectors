@@ -20,6 +20,14 @@ Once you've set up and deployed the connector, follow the [Use a Community Conne
 
 **Note**: After using the connector in Data Studio, as long as you do not [revoke access](https://support.google.com/datastudio/answer/9053467), it will remain listed in the [connector list](https://datastudio.google.com/c/datasources/create) for easy access when [creating a new data source](https://support.google.com/datastudio/answer/6300774).
 
+### Authentication: API Key
+
+Authenticate to the SendGrid API by [creating an API Key](https://sendgrid.com/docs/ui/account-and-settings/api-keys/#creating-an-api-key) in the Settings section of the SendGrid UI. You will be prompted to enter this **Key** while setting up the connector for the first time.
+
+> SendGrid recommends API Keys because they are a secure way to talk to the SendGrid API that is separate from your username and password. If your API key gets compromised in any way, it is easy to delete and create a new one and update your environment variables with the new key. An API key permissions can be set to provide access to different functions of your account, without providing full access to your account as a whole.
+
+Refer [SendGrid > Authentication](https://sendgrid.com/docs/API_Reference/Web_API_v3/How_To_Use_The_Web_API_v3/authentication.html#-API-key-recommended).
+
 ## Troubleshooting
 
 ### This app isn't verified
