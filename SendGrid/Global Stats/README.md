@@ -1,1 +1,1 @@
-# SendGrid Community Connector for Data Studio
+# SendGrid Global Stats Community Connector for Data Studio
