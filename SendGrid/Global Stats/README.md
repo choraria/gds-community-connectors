@@ -39,3 +39,6 @@ You will be prompted to enter this **Key** while setting up the connector for th
 When authorizing the community connector, if you are presented with an "unverified" warning screen see [This app isn't verified](https://github.com/googledatastudio/community-connectors/blob/master/verification.md) for details on how to proceed.
 
 ## Developer examples covered in the connector
+
+- Using `AuthType.KEY` along with `setCredentials` for [authentication](https://developers.google.com/datastudio/connector/auth)
+- Implementing [Properties Service > User Properties](https://developers.google.com/apps-script/reference/properties/properties-service#getuserproperties) to store and serve SendGrid API Key
