@@ -1,5 +1,7 @@
 # SendGrid Community Connector for Data Studio
 
+*This is not an official Google product*
+
 ## Set up the Community Connector for personal use
 
 ## Using the connector in Data Studio
