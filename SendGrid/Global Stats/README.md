@@ -8,7 +8,7 @@ This [Data Studio](https://datastudio.google.com) [Community Connector](https://
 
 ## Set up the Community Connector for personal use
 
-To use this Community Connector in Data Studio there is a one-time setup to deploy your own personal instance of the connector using Apps Script.
+To use this Community Connector in Data Studio there is a one-time setup to deploy your own personal instance of the connector using [Apps Script](https://developers.google.com/apps-script).
 
 ### Deploy the connector
 
