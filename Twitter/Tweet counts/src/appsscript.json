@@ -1,0 +1,21 @@
+{
+  "exceptionLogging": "STACKDRIVER",
+  "urlFetchWhitelist": ["https://api.twitter.com/"],
+  "runtimeVersion": "V8",
+  "dataStudio": {
+    "name": "Tweet counts for DS",
+    "logoUrl": "https://script.gs/content/images/size/w256h256/2022/04/favicon.png",
+    "company": "script.gs",
+    "companyUrl": "https://script.gs/",
+    "addonUrl": "https://github.com/choraria/gds-community-connectors/tree/master/Twitter/Tweet%20counts",
+    "supportUrl": "https://github.com/choraria/gds-community-connectors/issues/new?title=Tweet%20counts%20DS%20Connector%20Issue",
+    "description": "Get the recent Tweet count of tweets from the last seven days that match a query.",
+    "sources": ["TWITTER"],
+    "templates": {
+      "default": "a304b1a9-ab55-4d54-afb0-f8970bc9412d"
+    },
+    "shortDescription": "Get the recent Tweet count of tweets from the last seven days that match a query.",
+    "authType": ["KEY"],
+    "feeType": ["FREE"]
+  }
+}
